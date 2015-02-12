@@ -39,7 +39,7 @@ class ViewController: UIViewController {
 //        let numberFromTextField = sizeFromTextField.toInt() //optional
 //        var integerFromTextField = numberFromTextField! //unwrap optional
         
-        // refactoring
+        // refactoring //
         let sizeFromTextField = mensShoeSizeTextField.text.toInt()!
         
         let conversionConstant = 30
